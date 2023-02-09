@@ -1,0 +1,17 @@
+.main-title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    color: #9E373B;
+    text-align: center;
+    text-shadow: 3px 3px #EF5C54;
+}
+
+.main-title.-second {
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFE3D0;
+    text-shadow: none;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
