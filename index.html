@@ -12,8 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/main-title.css">
+    
     <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/main-label.css">
     <link rel="stylesheet" href="css/main-input.css">
     <link rel="stylesheet" href="css/main-button.css">
     <link rel="stylesheet" href="css/list-banners.css">
@@ -24,12 +26,14 @@
 </head>
 
 <body>
+
     <h1 class="main-title">FavoriteFlix</h1>
-    <h2 class="main-title -second">What's your favorite movie ?</h2>
 
-    <input class="main-input" type="text">
+    <label class="main-label" for="url">Qual o seu filme favorito ?</label>
 
-    <button class="main-button">Add</button>
+    <input id="url" class="main-input" type="text">
+
+    <button class="main-button">Adicionar</button>
 
     <section class="list-banners">
         <figure class="wrapper-banner">
