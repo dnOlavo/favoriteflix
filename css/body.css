@@ -1,8 +1,8 @@
 body {
     font-family: 'Press Start 2P', sans-serif;
-    background: linear-gradient(#1D1D29, 85%, #6C1827);
+    background: linear-gradient(#1D1D29, 95%, #6C1827);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-top: 40px;
 }
